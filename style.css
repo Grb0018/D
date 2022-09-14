@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin:0;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+#ele{
+    width: 20vw;
+    left: 40vw;
+    top: 17vw;
+    position: absolute;
+    display: none;
+}
+#game{
+    position: relative;
+    width: 100vw;
+    height: 52vw;
+    background-image: url(./img/mainbg.png);
+    background-size: 100% 100%;
+}
+#side{
+    display: flex;
+    background-color: crimson;
+    height: 14.16vw;
+    width: 2vw;
+    position: absolute;
+    left: 45vw;
+    top: 20.2vw;
+    border-radius: 1.07vw;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    padding-top: 0.4vw;
+    overflow: hidden;
+}
+#side a{
+    display: block;
+    background-color: #ff5c6d;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+}
+#side1{
+    display: flex;
+    background-color: crimson;
+    height: 2vw;
+    width: 12.3vw;
+    position: absolute;
+    left: 42.3vw;
+    top: 26.5vw;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vw;
+    overflow: hidden;
+    transform: rotate(67deg);
+    border-radius: 2vw;
+    z-index: 1;
+}
+#side1 a{
+    display: block;
+    background-color: #ff5c6d;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+}
+
+#side2{
+    display: flex;
+    background-color: crimson;
+    height: 2vw;
+    width: 5.6vw;
+    position: absolute;
+    left: 43.4vw;
+    top: 27.5vw;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.8vw;
+    z-index: 0;
+    overflow: hidden;
+}
+#side2 a{
+    display: block;
+    background-color: #ff5c6d;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+}
+
+#side3 {
+    display: flex;
+    background-color: crimson;
+    height: 2vw;
+    width: 10vw;
+    position: absolute;
+    left: 42.4vw;
+    top: 33.56vw;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.8vw;
+    overflow: hidden;
+}  
+#side3 a{
+    display: block;
+    background-color: #ff5c6d;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+}  
+.lb{
+    display: block;
+    background-color: #ff5c6d;
+    width: 2vw;
+    height: 0vw;
+    position: absolute;
+    top: -0.1vw;
+    border-radius: 1.5vw;  
+}
+.lb1{
+    display: block;
+    background-color: #ff5c6d;
+    width: 0vw;
+    height: 2vw;
+    position: absolute;
+    left: 0vw;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.lb2{
+    display: block;
+    background-color: #ff5c6d;
+    width: 0vw;
+    height: 2vw;
+    position: absolute;
+    left: 0.5vw;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    overflow: hidden;
+}
+.lb3{
+    display: block;
+    background-color: #ff5c6d;
+    width: 0vw;
+    height: 2vw;
+    position: absolute;
+    left: 0.5vw;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+#arrow{
+    position: absolute;
+    filter: invert(1);
+    left: 38vw;
+    top: 24vw;
+    height: 6vw;
+}
+#ar{
+    display: none;
+    position: absolute;
+    filter: invert(1);
+    left: 56.5vw;
+    top: 22vw;
+    height: 13vw;
+    transform: rotate(202deg);
+}
+
+@keyframes down{
+    0%{top:25vw}
+    50%{top:30vw}
+    100%{top:25vw}
+}
+@keyframes left1{
+    0%{left:45vw}
+    50%{left:48vw}
+    100%{left:45vw}
+}
+@keyframes left2{
+    0%{left:42vw}
+    50%{left:44vw}
+    100%{left:42vw}
+}
+
+.b1{     background-color: crimson;
+    top: 20.2vw;
+    left: 46.6vw;
+    position: absolute;
+    width: 2.2vw;
+    padding: 2px;}
+.b2{    background-color: crimson;
+    top: 20.2vw;
+    left: 48.1vw;
+    position: absolute;
+    width: 2.2vw;
+    padding: 2px;
+}  
+.b4{
+    background-color: crimson;
+    top: 20.4vw;
+    left: 51.3vw;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    position: absolute;
+    transform: rotate(31deg);
+    width: 2.2vw;
+    padding: 2px;
+}  
+.b3{
+    background-color: crimson;
+    top: 20.2vw;
+    left: 49.7vw;
+    position: absolute;
+    width: 2.2vw;
+    padding: 2px;
+}
+#b{
+    width: 8vw;
+    height: 12vw;
+    top: 19.6vw;
+    left: 45.4vw;
+    position: absolute;
+    z-index: 0;
+    background-color: transparent;
+    border-top-right-radius: 13vw;
+    border-bottom-right-radius: 13vw;
+    border: 2vw solid crimson;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 20px;
+}
+
+#h1{
+    position: absolute;
+    width:20vw;
+    height:20vw;
+    left:20vw;
+    top:20vw;
+    z-index: 3;
+}
+@keyframes fade{
+    0%{border: 2vw solid crimson;}
+    100%{border: 2vw solid white;}
+}

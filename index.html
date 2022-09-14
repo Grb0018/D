@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js" defer></script>
+    <script src="./phone.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="game">
+        <img src="./img/elephant.png" id="ele">
+        <img src="./img/down-arrow.png" id="arrow">
+        <img src="./img/arrow-round.png" id="ar">
+
+
+
+        <svg viewBox="311.033 63.722 180.289 193.433" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" style="
+        width: 21vw;
+        left: 40vw;top:16.7vw;
+        position: absolute;
+        z-index: 2;
+        ">
+            <ellipse x="46vw" y="17vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.549" cy="96.966" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="19vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.549" cy="109.966" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="20.6vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.55" cy="124.161" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="22.4vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.55" cy="140.161" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="24.4vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.5" cy="155.885" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="26.2vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.308" cy="172.08" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="28.2vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.675" cy="187.54" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="29.8vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="366.181" cy="202.735" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="46vw" y="31.5vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="365.928" cy="217.459" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="48.2vw" y="17.5vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="382.273" cy="96.449" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="50.1vw" y="17.6vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="399.457" cy="97.46" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="52.1vw" y="18.1vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="415.698" cy="101.816" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="52.1vw" y="19.17vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="431.272" cy="111.115" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="55.1vw" y="20.7vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="442.824" cy="125.77" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="56.04vw" y="22.83vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="450.054" cy="142.333" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="56.25vw" y="24.93vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="452" cy="160.16" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="55.9vw" y="27.03vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="449.055" cy="177.539" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="55.1vw" y="28.3vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="441.79" cy="191.183" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="53.8vw" y="29.9vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="429.847" cy="203.401" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="52.1vw" y="31.4vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="415.088" cy="212.86" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="50.1vw" y="31.4vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="398.803" cy="217.654" rx="5.563" ry="5.563"></ellipse>
+            <ellipse x="48.1vw" y="31.4vw" style="fill: blanchedalmond; paint-order: fill; stroke: rgba(0, 0, 0, 0);" cx="382.168" cy="217.826" rx="5.563" ry="5.563"></ellipse>
+            
+            
+          </svg>
+
+<div id="h1"></div>   
+<div id="b"></div>
+
+    </div>
+</body>
+</html>
